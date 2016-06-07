@@ -1,0 +1,150 @@
+body {
+    background-color: #f2efd7
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', 'Roboto Slab', serif;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 700;
+/*    text-shadow: -1px -1px 0px #ffffff*/
+
+}
+
+.workspace {
+    margin: 0 auto;
+    background-color: #f7f2b7;
+    padding: 20px;
+    width: 800px;
+    height: 516px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 9px -1px black;
+
+}
+
+.canvas {
+    float: right;
+    width: 650px;
+    height: 500;
+    border: 8px solid #333
+}
+
+.toolbar {
+    float: left;
+
+
+}
+
+.color {
+    width: 54px;
+    height: 54px;
+    margin: 20 0;
+    border: 1px solid black
+}
+
+#red {
+    background-color: #FF0000;
+    margin-top: 0px;
+}
+
+#blue {
+    background-color: #0000FF;
+}
+
+#yellow {
+    background-color: #FFFF00;
+}
+
+#white {
+    background-color: #FFFFFF;
+}
+.box {
+    background-color: #ffffff
+}
+
+#row-1-box-1, #row-3-box-1 {
+    float: left;
+    width: 190;
+    border-right: 8px solid black;
+    height: inherit;
+}
+
+#row-1-box-2, #row-3-box-2 {
+    float: left;
+    width: 220px;
+    border-right: 8px solid black;
+    height: inherit;
+}
+
+#row-1-box-3, #row-3-box-3 {
+    float: left;
+
+    width: 76px;
+    height: inherit;
+}
+
+.row-1 {
+    height: 100px;
+    border-bottom: 8px solid black
+}
+
+#row-1-box-4, #row-3-box-4 {
+    float: right;
+    border-left: 8px solid black;
+    width: 140px;
+    height: inherit;
+}
+
+.row-2 {
+    height: 250;
+    border-bottom: 8px solid black;
+}
+
+#row-2-box-1 {
+    float: left;
+    height: inherit;
+    width: 190px;
+    border-right: 8px solid black
+}
+
+#row-2-box-2 {
+    float: left;
+    height: inherit;
+    width: 180;
+    border-right: 8px solid black;
+}
+
+#row-2-box-3 {
+    float: right;
+    height: inherit;
+    width: 264px;
+
+}
+
+.row-3 {
+    height: 134
+}
+
+#reset {
+
+    float: left;
+    margin: 170 0;
+    width: 120px;
+    height: 40px;
+    background-color: #a23737;
+    box-shadow: 2px 2px black;
+    border: none;
+    color: #FFFFE0
+}
+
+#reset:hover {
+    background-color: #b70e0e;
+    color: #f8f8c3;
+
+}
+
+#reset:active {
+    position: relative;
+    top: 1px;
+}
